@@ -14,7 +14,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "cargo")
 @Data
 public class Cargo {//Cargo 1:1 Setor
     @Id

@@ -16,7 +16,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Entity
-@Table(name = "setor")
 @Data
 public class Setor {
     @Id
